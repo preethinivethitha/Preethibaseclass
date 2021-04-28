@@ -63,15 +63,15 @@ public class TestDemo {
 		WebElement findyear = driver.findElement(By.id("yearbox"));
 		Select S4 = new Select(findyear);
 		S4.selectByVisibleText("1996");
-		WebElement findmonth = driver.findElement(By.xpath("//select[@ng-model='monthbox']"));
-		Select S5 = new Select(findmonth);
-		S5.selectByVisibleText("March");
-		WebElement findday = driver.findElement(By.id("daybox"));
-		Select S6 = new Select(findday);
-		S6.selectByVisibleText("24");
-		driver.findElement(By.id("firstpassword")).sendKeys(Password);
-		driver.findElement(By.id("secondpassword")).sendKeys(ConfirmPassword);
-		driver.findElement(By.id("submitbtn")).click();
+//		WebElement findmonth = driver.findElement(By.xpath("//select[@ng-model='monthbox']"));
+//		Select S5 = new Select(findmonth);
+//		S5.selectByVisibleText("March");
+//		WebElement findday = driver.findElement(By.id("daybox"));
+//		Select S6 = new Select(findday);
+//		S6.selectByVisibleText("24");
+//		driver.findElement(By.id("firstpassword")).sendKeys(Password);
+//		driver.findElement(By.id("secondpassword")).sendKeys(ConfirmPassword);
+//		driver.findElement(By.id("submitbtn")).click();
 	}
 
 }
